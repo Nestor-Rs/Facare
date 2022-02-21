@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:contentDescription="@string/ImagenInicial"
+                app:srcCompat="@drawable/logo_prev_inicio_anahuac"
+                tools:srcCompat="@drawable/logo_prev_inicio_anahuac" />
+
+            <Button
+                android:id="@+id/Aingresar"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#EC7B02"
+                android:drawableLeft="@drawable/a2"
+                android:onClick="onClick"
+                android:text="Ingresar con mi cuenta Anahuac"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/NoCuenta"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Aregistrar"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:onClick="onClick"
+                android:text="@string/EntrarA"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

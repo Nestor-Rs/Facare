@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">facare</string>
+    <string name="ImagenInicial">TODO</string>
+    <string name="Ingresar">Button</string>
+    <string name="title_activity_login">Login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="NoCuenta">¿No tienes cuenta @anahuac.mx?</string>
+    <string name="EntrarA">Entra aquí</string>
+    <string name="NombreSinCorreo">Nombre</string>
+    <string name="apellidoPaternoSinCorreo">Apellido Paterno</string>
+    <string name="apellidoMaternoSinCorreo">Apellido Materno</string>
+    <string name="correoElectronicoGenericoSinCorreo">Correo electronico generico</string>
+    <string name="contrasenaSinCorreo">Contraseña</string>
+    <string name="confirmarContrasenaSinCorreo">Confirmar contraseña</string>
+    <string name="campusSinCorreo">Campus</string>
+    <string name="aceptoTerminoCondicionesSinCorreo">Acepto termino y condiciones</string>
+    <string name="AcareImage">TODO</string>
+    <string name="correoelectronicoanahuac">Correo Electronico Anahuac</string>
+</resources>

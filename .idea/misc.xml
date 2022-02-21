@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_aviso_privacidad.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_contrato_honestidad.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_cuestionario1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_cuestionario2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_cuestionario3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_cuestionario4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_cuestionario5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_menu_cuestionario.xml" value="0.22" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_menu_post_cuestionario.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_recuperar_contra.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_registro_sin_correo.xml" value="0.22" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/facare/app/src/main/res/layout/activity_reguistro_con_cuenta_anahuac.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

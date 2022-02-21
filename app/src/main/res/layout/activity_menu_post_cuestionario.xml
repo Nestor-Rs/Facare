@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPostCuestionario">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#EC7B02"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        >
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_prev_inicio_anahuac" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_baseline_settings_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/floatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_margin="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/MenuPTexto1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:gravity="center"
+            android:text="Vulnerabilidad"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:background="#F5F505"
+            />
+
+        <TextView
+            android:id="@+id/MenuPTexto2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:gravity="center"
+            android:text="Nombre del Usuario"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:background="#1CE500"
+            />
+
+        <TextView
+            android:id="@+id/MenuPTexto3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:gravity="center"
+            android:text="Fecha"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:background="#FF0003"
+            />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#EC7B02"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.974"
+        tools:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
