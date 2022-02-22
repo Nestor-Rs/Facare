@@ -57,77 +57,88 @@
                 android:textColor="#000000" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/C1P0"
+                android:onClick="Ninguno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Ninguno" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/C1P1"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Temperatura mayor a 37.5 grados" />
 
             <CheckBox
-                android:id="@+id/checkBox5"
+                android:id="@+id/C1P2"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Dolor muscular o de articulaciones" />
 
             <CheckBox
-                android:id="@+id/checkBox6"
+                android:id="@+id/C1P3"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Dolor de cabeza" />
 
             <CheckBox
-                android:id="@+id/checkBox7"
+                android:id="@+id/C1P4"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Tos" />
 
             <CheckBox
-                android:id="@+id/checkBox8"
+                android:id="@+id/C1P5"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Dolor de garganta" />
 
             <CheckBox
-                android:id="@+id/checkBox9"
+                android:id="@+id/C1P6"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Escurrimiento nasal" />
 
             <CheckBox
-                android:id="@+id/checkBox10"
+                android:id="@+id/C1P7"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Ojos rojos" />
 
             <CheckBox
-                android:id="@+id/checkBox11"
+                android:id="@+id/C1P8"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Comezón" />
 
             <CheckBox
-                android:id="@+id/checkBox12"
+                android:id="@+id/C1P9"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Ardor" />
 
             <CheckBox
-                android:id="@+id/checkBox13"
+                android:id="@+id/C1P10"
+                android:onClick="Otro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"

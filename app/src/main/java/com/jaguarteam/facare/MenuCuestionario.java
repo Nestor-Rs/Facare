@@ -8,9 +8,13 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MenuCuestionario extends AppCompatActivity {
+
+
     private Bundle bundle;
     private Users myUser;
     private TextView Encabezado;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +36,9 @@ public class MenuCuestionario extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.ResponderCuestionario:
                 miIntent = new Intent(MenuCuestionario.this, ContratoHonestidad.class);
+                if(bundle!=null) {
+                    miIntent.putExtra("Usuario",myUser);
+                }
                 startActivity(miIntent);
                 break;
         }

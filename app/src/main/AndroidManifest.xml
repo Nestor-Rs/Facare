@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Facare.NoActionBar">
         <activity
+            android:name=".LoginAnahuac"
+            android:exported="false" />
+        <activity
             android:name=".MenuPostCuestionario"
             android:exported="false" />
         <activity

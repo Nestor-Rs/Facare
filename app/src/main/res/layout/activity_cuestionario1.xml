@@ -70,17 +70,19 @@
                 android:textColor="#000000" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/P1si"
+                android:onClick="CheckBoxPushA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
                 android:text=" Sí" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/P1no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#FF5722"
+                android:onClick="CheckBoxPushB"
                 android:text=" No" />
 
         </LinearLayout>

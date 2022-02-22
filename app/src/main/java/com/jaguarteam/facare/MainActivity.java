@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()){
             case R.id.Aingresar:
                 Log.d("Depurar","Entre");
-                miIntent = new Intent(MainActivity.this,ReguistroConCuentaAnahuac.class);
+                miIntent = new Intent(MainActivity.this,LoginAnahuac.class);
                 startActivity(miIntent);
                 break;
             case R.id.Aregistrar:
